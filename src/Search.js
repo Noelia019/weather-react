@@ -21,7 +21,6 @@ export default function Search() {
     setWeather({
       temperature: response.data.main.temperature,
     });
-    console.log(response.data);
   }
 
   let form = (
